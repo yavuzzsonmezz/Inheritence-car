@@ -1,0 +1,18 @@
+package day37_inheritance;
+
+public class Corolla {
+
+    String renk;
+    int fiyat;
+    boolean elektrikliMi;
+    int tekerlekSayisi=4;
+    String uretimYeri="Turkiye";
+
+    public static void main(String[] args) {
+        Corolla                      arb1               =      new             Corolla();
+        //class ismi & data turu      obje ismi assignment     keyword         Constructor
+        Corolla arb2= new Corolla();
+        Corolla arb3=new Corolla();
+
+    }
+}
